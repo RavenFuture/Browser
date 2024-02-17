@@ -1,0 +1,103 @@
+body {
+    margin: 0; 
+    padding: 30px;
+    font-family: 'Open Sans', sans-serif; 
+    background-image: url(background5.gif); 
+    background-size: cover;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;  
+    min-height: 100vh; 
+}
+
+.header { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px; 
+    border-radius: 10px;    
+    background-image: url(Gradient.png);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 20px; 
+}
+
+.greeting {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px; 
+    margin-right: 10px; 
+    background-image: url(gradient.gif); 
+    background-size: contain; 
+    background-clip: text; 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+}
+
+.profile-pic {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%; 
+    object-fit: cover; 
+}
+
+.search-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 25px; 
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);  
+    width: 500px; 
+    margin-bottom: 30px; 
+}
+
+#search-bar {
+    width: 100%;
+    padding: 10px;
+    border: none; 
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+#search-popup {
+    display: none; 
+    position: relative; 
+    background-image: url('background1.png');
+    background-size: cover;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.app-bar {
+    display: flex;
+    justify-content: space-around; 
+    padding: 20px;
+    width: 600px;
+}
+
+.app-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none; 
+    text-align: center;
+    padding: 12px 20px;
+    border-radius: 15px; 
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s ease; 
+    margin: 0 15px;
+    background-color: white;
+}
+
+.app-button img { 
+    height: 30px;
+    margin-bottom: 5px;
+}
+
+.app-button a { 
+    color: black;
+    text-decoration: none; 
+} 
+
+.app-button:hover {
+    transform: scale(1.05); 
+}
